@@ -62,7 +62,7 @@ const Navbar = () => {
           {/* mobile nav */}
 
           <div className="md:hidden lg:hidden ">
-            <button onClick={toggleNav} className="text-white text-3xl ml-50">
+            <button onClick={toggleNav} className="text-white text-3xl m-auto">
               {navVisible ? (
                 <img src={iconclose} alt="close" />
               ) : (
@@ -83,7 +83,7 @@ const Navbar = () => {
                 </li>
                 <li className="hover:underline underline-offset-8 mt-4">
                   <NavLink
-                    to={"/destinations/:id"}
+                    to={"/destinations/1"}
                     style={({ isActive }) => (isActive ? activeStyle : null)}
                   >
                     01 DESTINATIONS
@@ -91,7 +91,7 @@ const Navbar = () => {
                 </li>
                 <li className="hover:underline underline-offset-8 mt-4">
                   <NavLink
-                    to={"/crew"}
+                    to={"/crew/1"}
                     style={({ isActive }) => (isActive ? activeStyle : null)}
                   >
                     02 CREW
@@ -99,7 +99,7 @@ const Navbar = () => {
                 </li>
                 <li className="hover:underline underline-offset-8 mt-4">
                   <NavLink
-                    to={"/technologies"}
+                    to={"/technologies/1"}
                     style={({ isActive }) => (isActive ? activeStyle : null)}
                   >
                     03 TECHNOLOGIES
