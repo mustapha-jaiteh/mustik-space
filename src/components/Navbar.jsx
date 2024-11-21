@@ -62,7 +62,7 @@ const Navbar = () => {
           {/* mobile nav */}
 
           <div className="md:hidden lg:hidden ">
-            <button onClick={toggleNav} className="text-white text-3xl ml-60">
+            <button onClick={toggleNav} className="text-white text-3xl ml-50">
               {navVisible ? (
                 <img src={iconclose} alt="close" />
               ) : (
