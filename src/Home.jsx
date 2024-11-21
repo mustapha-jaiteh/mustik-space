@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <main className="bg-[url('./assets/home/background-home-mobile.jpg')] md:bg-[url('./assets/home/background-home-tablet.jpg')] lg:bg-[url('./assets/home/background-home-desktop.jpg')] bg-cover bg-no-repeat h-full pt-6 w-full">
+      <main className="bg-[url('./assets/home/background-home-mobile.jpg')] md:bg-[url('./assets/home/background-home-tablet.jpg')] lg:bg-[url('./assets/home/background-home-desktop.jpg')] bg-cover overflow-hidden  h-full pt-6 w-full">
         <Navbar />
         <div className="main-div grid grid-cols-1 justify-center items-center text-center place-content-center h-full w-full ">
           <div className="text-part justify-center items-center text-center my-28 w-[80%] lg:w-[60%] mx-auto lg:mx-auto px-auto lg:px-16">
